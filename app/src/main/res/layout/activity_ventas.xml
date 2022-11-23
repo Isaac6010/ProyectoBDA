@@ -133,7 +133,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:backgroundTint="#00796B"
+        android:backgroundTint="#004D40"
         android:text="@string/btnGrabar"
         app:layout_constraintBottom_toTopOf="@+id/btnLimpiarVentas"
         app:layout_constraintEnd_toEndOf="parent"
