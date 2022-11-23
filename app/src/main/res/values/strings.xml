@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ProyectoBDA</string>
+    <string name="txtIniciosesion">Ventas APP</string>
+    <string name="txtUsuario">Usuario:</string>
+    <string name="txtContraseña">Contraseña:</string>
+    <string name="txtRegistrarse">Ingresar</string>
+    <string name="InsertarUsuario">Usuario</string>
+    <string name="InsertarContraseña">Contraseña</string>
+    <string name="RealizarVenta">Realizar Venta</string>
+    <string name="agregarproducto">Agregar Producto</string>
+    <string name="txtInventario">Inventario</string>
+    <string name="txtCOdigo">Codigo:</string>
+    <string name="txtUnidades">Unidades:</string>
+    <string name="txtNo.Producto">No. Producto:</string>
+    <string name="txtPrecioCosto">Precio Costo:</string>
+    <string name="txtPrecioVenta">Precio Venta:</string>
+    <string name="txtDescripcion">Descripcion:</string>
+    <string name="txtCOdigoR">Ingrese el Codigo</string>
+    <string name="txtUnidadesR">Descripcion</string>
+    <string name="txtNo.ProductoR">Inserte el No. Producto</string>
+    <string name="txtPrecioCostoR">Precio Unidad</string>
+    <string name="txtPrecioVentaR">Cantidad Disponible</string>
+    <string name="btnConsultar">Consultar</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="txtNitVentas">Ingrese el Nit</string>
+    <string name="lblNombreCliente">Nombre del Cliente</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="txtCodigo">Ingrese el Codigo de Producto</string>
+    <string name="lblDescripcion">Descripcion del Producto</string>
+    <string name="lblCantidad">Cantidad a Despachar:</string>
+    <string name="txtCantidad">0</string>
+    <string name="btnGrabar">Grabar Venta</string>
+    <string name="btnSsiguiente">Grabar Producto</string>
+    <string name="menuVentas">Ventas</string>
+    <string name="menuProductos">Productos</string>
+    v<string name="existencias">Consulta a Existencias</string>
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtCantidadInv"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtPrecioVentaR"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#BCAAA4"
+        android:textColorHint="#BCAAA4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecioInv" />
+
+    <EditText
+        android:id="@+id/txtPrecioInv"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtPrecioCostoR"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#BCAAA4"
+        android:textColorHint="#BCAAA4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcionInv" />
+
+    <EditText
+        android:id="@+id/txtCodigoInv"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtCOdigoR"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#BCAAA4"
+        android:textColorHint="#BCAAA4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+    <EditText
+        android:id="@+id/txtDescripcionInv"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtUnidadesR"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#BCAAA4"
+        android:textColorHint="#BCAAA4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/existencias"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="64dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#009688"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCantidadInv" />
+
+    <Button
+        android:id="@+id/btnConsultaInv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#004D40"
+        android:text="@string/btnConsultar"
+        app:layout_constraintBottom_toTopOf="@+id/btnLimpiarInv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnLimpiarInv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#00796B"
+        android:text="@string/btnLimpiar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

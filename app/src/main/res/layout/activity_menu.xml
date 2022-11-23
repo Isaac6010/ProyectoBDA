@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    tools:context=".menu">
+
+    <ImageButton
+        android:id="@+id/btnVentasMenu"
+        android:layout_width="150dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="206dp"
+        android:background="#004D40"
+        android:contentDescription="@string/menuVentas"
+        android:onClick="pantallaVentas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCopyDrawable" />
+
+    <ImageButton
+        android:id="@+id/btnInventarioMenu"
+        android:layout_width="150dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="206dp"
+        android:background="#00796B"
+        android:contentDescription="@string/menuProductos"
+        android:onClick="pantallaInventario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/actionModePasteDrawable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
